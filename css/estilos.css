@@ -2,6 +2,23 @@
   background-color: #07cb79;
 
 }
- nav {
-      margin-top:50px
- }
+
+nav {
+      margin-top:5px
+}
+
+#body_color {
+    background-color: #c48e54;
+}
+
+#logo {
+    margin-top:5px
+}
+
+#pie {
+    background-color: #07cb79;
+}
+
+#documento {
+    background-color: /*#a3c2c2;*/ #f2e6d9;
+}
