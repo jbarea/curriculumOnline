@@ -7,6 +7,10 @@ nav {
       margin-top:5px
 }
 
+h3 {
+    color:blue;
+}
+
 #body_color {
     background-color: #c48e54;
 }
@@ -21,4 +25,28 @@ nav {
 
 #documento {
     background-color: /*#a3c2c2;*/ #f2e6d9;
+}
+
+#categorias {
+
+}
+
+#personal {
+    background-color: #f2e6d9;
+    /*visibility:hidden;*/
+}
+
+#personal-etiq {
+    visibility:hidden;
+}
+
+#educacion {
+    background-color: #f2e6d9;
+}
+
+#educacion-etiq {
+    visibility:hidden;
+}
+#experiencia {
+    background-color: #f2e6d9;
 }
