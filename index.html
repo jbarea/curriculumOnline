@@ -4,38 +4,182 @@
     <meta charset="utf-8">
     <title>Currículum Vitae</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/estilos.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <header class="container-fluid">
       <!--<div id="cabecera">-->
-      <div class="row">
+      <div class="row" id="cabecera">
           <div class="col-md-8">
               <a href="index.html" title="logotipo">
-                  <!--<img src="imagenes/mini_lenguajes_3.jpg" class="img-fluid" alt="logotipo de mi página">-->
-                  <h3 id="logo">Juan Antonio Barea López</h3>
+                  <!--<img src="imagenes/mini_codigo_logotipo.png" class="img-fluid" alt="logotipo de mi página">-->
+                  <h3 id="logo">Currículum Vitae</h3>
               </a>
           </div>
-          <!-- <div class="col-md-4">
-          </div> -->
           <div class="col-md-4">
               <nav>
-                  <a href="curriculum.html" title="Mi curriculum" class="col-md-4">Mi Currículum</a>
+                  <a href="#" title="Mas Información" class="col-md-4">Mas Información</a>
                   <a href="#" title="Contacto" class="col-md-4">Contacto</a>
               </nav>
           </div>
       </div>
     </header>
-    <div class="container text-center bg-info">
-        <p>
-            Este es el curriculum en si
-        </p>
+    <div class="container" id="personal">
+            <h3>Datos Personales</h3>
+            <!--<a href="#" onclick="mostrar('personal-etiq'); return false"><h3>Datos Personales</h3></a>-->
+            <div id="personal-etiq">
+                <p>
+                Juan Antonio Barea López<br/>
+                DNI 48488148P<br/>
+                <i class="fas fa-birthday-cake"></i>04/02/1979<br/>
+                <i class="fas fa-phone"></i>626634661<br/>
+                <i class="fas fa-envelope"></i>jbarealopez2@gmail.com<br/>
+            </p>
+            </div>
     </div>
+    <div class="container" id="educacion">
+        <h3>Educación</h3>
+        <a href="#" onclick="mostrar('fp2'); return false"><h4><i class="fas fa-graduation-cap"></i>Técnico Especialista en Informática de Gestión (FP2)</h4></a>
+        <div id="fp2">
+            <pre>
+                (Finalización 15/09/1999).
+                Conocimientos adquiridos aquí de desarrollo y mantenimiento de
+                aplicaciones en CA/Clipper 5 y RM/COBOL 85.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('fpgs'); return false"><h4><i class="fas fa-graduation-cap"></i>Técnico Superior en Desarrollo de Aplicaciones Informáticas (FP de Grado Superior)</h4></a>
+        <div id="fpgs">
+            <pre>
+                (Finalización 01/07/2004).
+                Conocimientos adquiridos avanzados de:
+                Linux (instalación y mantenimiento, así como programación del shell y
+                scripts en Linux).
+                Creación de aplicaciones y mantenimiento en lenguaje C (programación
+                estructurada).
+                Creación de aplicaciones y mantenimiento en Visual Basic, así como su
+                integración con bases de datos Access y Oracle.
+                Creación, desarrollo y mantenimiento de aplicaciones en Oracle Forms
+                Developer, así como administración de bases de datos Oracle.
+                Creación y Mantenimiento de bases de datos bajo PL/SQL
+                Conocimientos avanzados en el lenguaje SQL para bases de datos.
+                Creación y mantenimiento de páginas web con .ASP junto con bases de
+                datos.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('admred'); return false"><h4><i class="fas fa-graduation-cap"></i>Administración de Sistemas Operativos en Red. (Curso 400 h SEF)</h4></a>
+        <div id="admred">
+            <pre>
+                (30/11/2004 a 12/04/2005).
+                Conocimientos adquiridos:
+                Instalación y mantenimiento de Sistemas Operativos Windows(Windows
+                95/98/2000/2000 Server/2003 Server/NT Server/XP) y puesta en servicio
+                de dichos sistemas en Red(parte física y lógica), abarcando todas las
+                distintas topologías y distribuciones de red existentes según las necesidades
+                de la empresa.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('java'); return false"><h4><i class="fas fa-graduation-cap"></i>Curso Superior de Programación en Java. (Escuela Europea de Negocios, Murcia)</h4></a>
+        <div id="java">
+            <pre>
+                (26/11/2009 a 01/02/2010).
+                Conocimientos adquiridos:
+                Programación orientada a objetos, creación de librerías y clases.
+                Realización de entornos gráficos con la API Swing.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('grado'); return false"><h4><i class="fas fa-graduation-cap"></i>Grado en Ingeniería Informática de Sistemas.(Universidad Católica San Antonio de Murcia)</h4></a>
+        <div id="grado">
+            <pre>
+                (Finalización 09/10/2014).Finalización de los estudios y realización de Proyecto Fin de Grado basado
+                en un creador de reglas para sistemas expertos.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('ccna'); return false"><h4><i class="fas fa-graduation-cap"></i>Cisco CCNA (Cisco Certified Network Associate). (Universidad Católica San Antonio de Murcia)</h4></a>
+        <div id="ccna">
+            <pre>
+                (Finalización 10/10/2013).
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('angular'); return false"><h4><i class="fas fa-graduation-cap"></i>Certificación MVP en Desarrollo de Aplicaciones AngularJS.</h4></a>
+        <div id="angular">
+            <pre>
+                Desarrollo de aplicaciones web con AngularJS, modelo vista controlador
+                (MVP) y aplicación de bootstrapping entre otros.
+                (Finalización 12/12/2016).
+            </pre>
+        </div>
+    </div>
+
+    <div class="container" id="experiencia">
+        <h3>Experiencia</h3>
+        <a href="#" onclick="mostrar('exp1'); return false"><h4><i class="fab fa-php"></i><i class="fab fa-js-square"></i><i class="fab fa-css3"></i>Desarrollo Web</h4></a>
+        <div id="exp1">
+            <pre>
+                (03/02/2004 a 03/06/2004) Desarrollo de página web y base de datos en
+                PHP y MySQL para la empresa Depau Sistemas S.L, durante el periódo de
+                prácticas previo a la finalización de los estudios de Técnico Superior en
+                Desarrollo de Aplicaciones Informáticas.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('exp2'); return false"><h4><i class="fas fa-hdd"></i>Técnico Hard/Soft</h4></a>
+        <div id="exp2">
+            <pre>
+                (2/01/2007 a 1/07/2007) Técnico en sistemas de videovigilancia IP en
+                Vigilia Digitalcam S.L.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('exp3'); return false"><h4><i class="fas fa-hdd"></i>Soporte Técnico/Programación</h4></a>
+        <div id="exp3">
+            <pre>
+                (03/09/2007 a 02/09/2008) Desarrollo de aplicación de gestión en VB .NET
+                y sql Mobile en Cesoft Murcia S.L. Soporte técnico del aplicativo de la
+                empresa en la consejería de Educación de la región de Murcia.
+                Conocimientos adquiridos sobre Microsoft Navision ERP y lenguaje C/AL.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('exp4');return false"><h4><i class="fab fa-php"></i><i class="fab fa-js-square"></i><i class="fab fa-css3"></i>Desarrollo Web</h4></a>
+        <div id="exp4">
+            <pre>
+                (27/11/2009 a 30/06/2010) Desarrollo de Aplicación web con base de datos
+                en PHP/Mysql sobre Apache junto con servicio de envío de email y sms
+                para el Ayuntamiento de Cehegín.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('exp5'); return false"><h4><i class="fas fa-hdd"></i>Soporte Técnico</h4></a>
+        <div id="exp5">
+            <pre>
+                (21/09/2015 a 30/11/2015) Técnico CAU de soporte en el Proyecto Aula
+                XXI de la Consejería de Educación de Murcia.
+            </pre>
+        </div>
+
+        <a href="#" onclick="mostrar('exp6')"><h4><i class="fab fa-php"></i><i class="fab fa-js-square"></i><i class="fab fa-css3"></i>Desarrollo Web</h4></a>
+        <div id="exp6">
+            <pre>
+                (04/05/2017 a 28/08/2017) Desarrollador backend y frontend sobre
+                laravel/php, javascript, html y css. Inmotica Integral S.L.
+            </pre>
+        </div>
+    </div>
+
     <footer class="container-fluid text-center" id="pie">
-        &copy; Juan Antonio Barea, 2018
+        <i class="far fa-copyright"></i> Juan Antonio Barea, 2018
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/funciones.js"></script>
   </body>
 </html>
