@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
 #cabecera {
   background-color: #07cb79;
 
@@ -9,7 +11,10 @@ nav {
 }
 
 #logo {
-    margin-top:5px
+    /*margin-top:5px*/
+    /*font-family: 'Unica One', cursive;*/
+    font-family: 'Orbitron', sans-serif;
+    color: #007bff;
 }
 
 #pie {
