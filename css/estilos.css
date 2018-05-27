@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 @import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 
 #cabecera {
   background-color: #07cb79;
@@ -15,6 +16,13 @@ nav {
     /*font-family: 'Unica One', cursive;*/
     font-family: 'Orbitron', sans-serif;
     color: #007bff;
+}
+
+#parrafo {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    /*color: #007bff;*/
+    margin-left: 100px;
+    font-size: 22px;
 }
 
 #pie {
